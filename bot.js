@@ -52,7 +52,7 @@ client.on("message", async (message) => {
     const embed = new RichEmbed()
     .setDescription(`Error Message: ${err}`)
     .setTitle('Error')
-    .setFooter('Provided By GigaByte Bot')
+    .setFooter('Provided By Gigabyte Debugger')
     .setColor(0xFF0000);
     message.channel.send(embed);
   }
@@ -81,7 +81,7 @@ client.on("messageUpdate", async (message) => {
     const embed = new RichEmbed()
     .setDescription(`Error Message: ${err}`)
     .setTitle('Error')
-    .setFooter('Provided By GigaByte Bot')
+    .setFooter('Provided By Gigabyte Debugger')
     .setColor(0xFF0000);
     message.channel.send(embed);
   };

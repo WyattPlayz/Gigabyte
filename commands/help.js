@@ -1,4 +1,4 @@
-module.exports = (client, msg, args) => {
+module.exports.run = (client, msg, args) => {
   const { Client, RichEmbed } = require('discord.js');
   var embed = new RichEmbed()
   .setTitle('Command Output')
